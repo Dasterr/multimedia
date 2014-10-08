@@ -1,0 +1,43 @@
+
+
+body {
+	background-color: white;
+	font-family : 'Dosis';
+}
+
+h1 {
+	background-color : lightgrey;
+	color : black;
+	padding : 10px;
+	font-size: 30px;
+	float: left;
+}
+
+.menu{
+	float: right;
+	font-size : 10px;
+	background-color: lightgrey;
+	width : 100%;	
+}
+
+.Login{
+	float: right;
+	padding: 20px;
+}
+
+.Index{
+	float: right;
+	margin: 20px;
+	font-size: 20px;
+}
+table{
+	float: left;
+	margin-left: 15%;
+	margin-right:15%;
+	margin-top:5%;
+	width:20%;
+	height: 20%;
+}
+img{
+	width:50%;
+}
