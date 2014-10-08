@@ -6,17 +6,28 @@ body {
 }
 
 h1 {
-	background-color : lightgrey;
 	color : black;
 	padding : 10px;
 	font-size: 30px;
 	float: left;
 }
 
+li{
+	
+}
+
+img{
+	width:50%;
+}
+
+table{
+	border: 2px solid #4F4F4F;
+}
+
 .menu{
 	float: right;
 	font-size : 10px;
-	background-color: lightgrey;
+	background-color: #EEEEFF;
 	width : 100%;	
 }
 
@@ -30,7 +41,7 @@ h1 {
 	margin: 20px;
 	font-size: 20px;
 }
-table{
+.MusikTabelle{
 	float: left;
 	margin-left: 15%;
 	margin-right:15%;
@@ -38,6 +49,34 @@ table{
 	width:20%;
 	height: 20%;
 }
-img{
-	width:50%;
+
+.TitelList{
+	width: 85%;
+	float: right;
+	border: 0px solid #4F4F4F;
+	background-color: #E3E3E3;
+	text-align: center;
+}
+
+.TitelMenü{
+	float: left;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+.LängeUndGröße{
+	width: 5%;
+}
+
+.Höhe{
+	height: 5%;
+}
+
+.hrSenkrecht{
+	position: static;
+	color: #E3E3E3;
+	height: 100%; 
+	width: 1px;
+	float: left;
+	margin-left: 5%;
 }
