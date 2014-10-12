@@ -1,5 +1,3 @@
-
-
 body {
 	background-color: white;
 	font-family : 'Dosis';
@@ -84,4 +82,34 @@ table{
 	width: 1px;
 	float: left;
 	margin-left: 1%;
+}
+
+.hrWaagerecht{
+	float: right;
+	position: static;
+	color: #E3E3E3;
+	height: 1px; 
+	width: 95%;
+}
+
+.AlbumAlphabet	{
+	font-size: 50px;
+	text-align: center;
+	float: left;
+	background-color: #E3E3E3;
+}
+
+.AlbumÜberListe{
+	margin-left: 5%;
+}
+
+.AlbumListe{
+	float: left;
+	margin-left: 5%;
+	background-color: #E3E3E3;
+}
+
+.AlbumImage{
+	width: 100px;
+	height: 100px;
 }
