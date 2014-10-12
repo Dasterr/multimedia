@@ -31,6 +31,13 @@ table{
 	width : 100%;	
 }
 
+.Titel{
+	float: right;
+	font-size : 10px;
+	background-color: #EEEEFF;
+	width : 100%;	
+}
+
 .Login{
 	float: right;
 	padding: 20px;
@@ -53,14 +60,15 @@ table{
 .TitelList{
 	width: 85%;
 	float: right;
-	border: 0px solid #4F4F4F;
+	float: top;
+	border-right: 0px solid #4F4F4F;
 	background-color: #E3E3E3;
 	text-align: center;
 }
 
 .TitelMenü{
 	float: left;
-	margin-left: 5%;
+	margin-left: 2%;
 	margin-top: 3%;
 }
 
@@ -68,9 +76,6 @@ table{
 	width: 5%;
 }
 
-.Höhe{
-	height: 5%;
-}
 
 .hrSenkrecht{
 	position: static;
@@ -78,5 +83,5 @@ table{
 	height: 100%; 
 	width: 1px;
 	float: left;
-	margin-left: 5%;
+	margin-left: 1%;
 }
