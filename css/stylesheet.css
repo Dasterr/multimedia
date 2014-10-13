@@ -67,7 +67,7 @@ table{
 .TitelMenü{
 	float: left;
 	margin-left: 2%;
-	margin-top: 3%;
+	margin-top: 2%;
 }
 
 .LängeUndGröße{
@@ -89,13 +89,20 @@ table{
 	position: static;
 	color: #E3E3E3;
 	height: 1px; 
-	width: 95%;
+	width: 75%;
+}
+
+.AlbumMenü{
+	float: top;
+	margin-left:2%;
+	background-color: #EEEEFF;
 }
 
 .AlbumAlphabet	{
 	font-size: 50px;
 	text-align: center;
 	float: left;
+	margin-left: 10%;
 	background-color: #E3E3E3;
 }
 
