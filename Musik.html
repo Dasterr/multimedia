@@ -1,22 +1,31 @@
 <!DOCTYPE html PUBLIC>
 <html>
-<head> 
+<header>
 	<meta name = "author" content = "MultimediaEngeneering">
 	<meta charset = "UTF-8">
 	<link rel="stylesheet" type = "text/css" href="css/stylesheet.css">
 	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
-	<title> Musikdatenbank </title> 
-</head>
+	<title> Musik </title>
+</header>
 <body>
-<div class = menu >
-	<h1>Musikbibliothek</h1>
-	<ul class = "Index"><a href = "index.html" > Index </a>  </ul>
-    <ul class = "Index"><a href = "Verwalten.html">Verwalten</a></ul>
-</div>
+    <div class ="wrapper2">
+        <div class = menu >
+            <h1>Musikbibliothek</h1>
+            <ul class = "Index"><a href = "index.html" > Logout </a>  </ul>
+        </div>
+    </div>
+
+    <div class = hinzufügen >
+        <form>
+            Lied hinzufügen:
+            <input type = "hidden" name = "Datei" />
+            <input name "Lied" type = "file" />
+            <input type="submit" name="Submit" value="Upload" />
+        </form>
+
+    </div>
 
 <div class = menu>
-	<hr>
-
 	<a href="Titel.html">
 		<table class="MusikTabelle">
 			<tr>
@@ -29,7 +38,7 @@
 				</th>
 		</table>
 	</a>
-	
+
 	<a href="Album.html">
 		<table class="MusikTabelle">
 			<tr>
@@ -37,15 +46,15 @@
 					<img src="img/Album.jpg " width="150" height="150" alt="Album ">
                     <!--http://upload.wikimedia.org/wikipedia/commons/e/ec/Record-Album-02.jpg-->
 				</th>
-				
+
 			</tr>
-			
+
 				<th>
 					Album
 				</th>
 		</table>
 	</a>
-		
+
 	<a href="Interpret.html">
 		<table class="MusikTabelle">
 			<tr>
@@ -54,13 +63,13 @@
                     <!--http://www.picgifs.com/music-graphics/music-graphics/jazz-musician/music-graphics-jazz-musician-165168.gif-->
 				</th>
 			</tr>
-			
+
 				<th>
 					Interpret
 				</th>
 		</table>
 	</a>
-	
+
 	<a href="Genre.html">
 		<table class="MusikTabelle">
 			<tr>
@@ -69,8 +78,8 @@
                     <!--http://asiaexc12febriyanti.files.wordpress.com/2012/05/music-genres-21-05-111.jpg-->
 				</th>
 			</tr>
-			
-				<th>							
+
+				<th>
 					Genre
 				</th>
 		</table>
