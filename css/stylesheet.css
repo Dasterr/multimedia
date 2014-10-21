@@ -10,8 +10,17 @@ h1 {
 	float: left;
 }
 
-li{
-	
+.wrapper {
+    min-height: 100%;
+    height: auto;
+    height: 100%;
+    margin: 0 auto -2em;
+}
+
+
+
+.footer , .push{
+    height: 2em;
 }
 
 img{
@@ -22,18 +31,38 @@ table{
 	border: 2px solid #4F4F4F;
 }
 
+footer{
+    bottom: 0px;
+}
+
 .menu{
 	float: right;
-	font-size : 10px;
+    font-size : 10px;
 	background-color: #EEEEFF;
-	width : 100%;	
+	width : 100%;
+    padding:2px;
+}
+
+.wrapper2{
+	padding: 20px;
+	background-color:#EEEEFF;
+    min-height: 11%;
+    height: auto;
+    height:11%;
+}
+.reg{
+	margin-top: 15px; 
+    background-color: #EEEEFF;
+    height: 15em;
+    padding: 20;
 }
 
 .Titel{
 	float: right;
 	font-size : 10px;
 	background-color: #EEEEFF;
-	width : 100%;	
+	width : 100%;
+    height: 30em;
 }
 
 .Login{
@@ -46,42 +75,44 @@ table{
 	margin: 20px;
 	font-size: 20px;
 }
+
 .MusikTabelle{
 	float: left;
 	margin-left: 15%;
 	margin-right:15%;
-	margin-top:5%;
-	width:20%;
-	height: 20%;
+	margin-top:1%;
+    margin-bottom:1%;
+	width: 20%;
+	height: 22%;
+}
+
+thead{
+    background-color: white;
+}
+
+.Titelth{
+    border: 1px solid;
+    empty-cells: hide;
+    width: 20em;
+}
+
+.Titeltd{
+    border: 1px solid;
+    empty-cells: hide;
+    width: 20em;
+    text-align: center;
 }
 
 .TitelList{
-	width: 85%;
 	float: right;
 	float: top;
-	border-right: 0px solid #4F4F4F;
-	background-color: #E3E3E3;
-	text-align: center;
+    margin-right: 20px;
 }
 
 .TitelMenü{
 	float: left;
 	margin-left: 2%;
 	margin-top: 2%;
-}
-
-.LängeUndGröße{
-	width: 5%;
-}
-
-
-.hrSenkrecht{
-	position: static;
-	color: #E3E3E3;
-	height: 100%; 
-	width: 1px;
-	float: left;
-	margin-left: 1%;
 }
 
 .hrWaagerecht{
@@ -119,4 +150,21 @@ table{
 .AlbumImage{
 	width: 100px;
 	height: 100px;
+}
+
+.hinzufügen{
+    margin-top: 2px;
+    padding:10px;
+    float: right;
+}
+
+.search_delete{
+    float: left;
+    padding: 10px;
+    border-width: 1px;
+    border-style: outset;
+    border-color: darkslategrey;
+    background-color: #EEEEFF;
+    height: 6em;
+    margin-top: 15px;
 }
