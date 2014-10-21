@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<header>
+    <meta name = "author" content = "MultimediaEngeneering">
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" type = "text/css" href="css/stylesheet.css">
+    <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+    <title> Registrieren </title>
+</header>
+<body>
+<div class = "wrapper2">
+	<h1>Registrieren</h1>
+</div>
+<div class = "reg">
+    <form name ="Register_Form">
+        <label>Username: <br/></label>
+        <input type = "text" name ="username"><br/>
+        <label>Password: <br/></label>
+        <input type = "password" name ="Password"><br/>
+        <label>Confirm Password: <br/></label>
+        <input type = "password" name ="ConfirmPassword"><br/>
+        <label>Email: <br/></label>
+        <input type = "email" name ="Email"><br/>
+        <input type = "submit" value =  "Register">
+        <p>Bereits registriert? <a href = "index.html">Login</a></p>
+
+    </form>
+</div>
+</body>
