@@ -8,23 +8,18 @@
 	<title> Musik </title>
 </header>
 <body>
-    <div class ="wrapper2">
-        <div class = menu >
+    <div class ="wrapper2">        
             <h1>Musikbibliothek</h1>
-            <ul class = "Index"><a href = "index.html" > Logout </a>  </ul>
-        </div>
+            <ul class = "Index"><a href = "index.html" > Logout </a>  </ul>			
+			<div class = hinzufügen >
+				<form>
+					Lied hinzufügen:
+					<input type = "hidden" name = "Datei" />
+					<input name "Lied []" type = "file" multiple />
+					<input type="submit" name="Submit" value="Upload" />
+				</form>
+			</div>		
     </div>
-
-    <div class = hinzufügen >
-        <form>
-            Lied hinzufügen:
-            <input type = "hidden" name = "Datei" />
-            <input name "Lied" type = "file" />
-            <input type="submit" name="Submit" value="Upload" />
-        </form>
-
-    </div>
-
 <div class = menu>
 	<a href="Titel.html">
 		<table class="MusikTabelle">
