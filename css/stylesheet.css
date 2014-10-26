@@ -1,5 +1,4 @@
 body {
-	background-color: white;
 	font-family : 'Dosis';
 }
 
@@ -8,6 +7,18 @@ h1 {
 	padding : 10px;
 	font-size: 30px;
 	float: left;
+}
+
+table{
+	border: 1px solid;
+}
+
+thead{
+    background-color: white;
+}
+
+footer{
+    bottom: 0px;
 }
 
 .wrapper {
@@ -21,33 +32,14 @@ h1 {
     height: 2em;
 }
 
-img{
-	width:50%;
-}
-
-table{
-	border: 2px solid #4F4F4F;
-}
-
-footer{
-    bottom: 0px;
-}
-
 .menu{
-	float: right;
-    font-size : 10px;
-	background-color: #EEEEFF;
-	width : 100%;
-    padding:3px;
+	font-size : 10px;
+	background-color: #AEB5CC;
+	max-width : 100%;
+	height: 100%;
+	padding: 10px;
 }
 
-.wrapper2{
-	padding: 3px;
-	background-color:#EEEEFF;
-    min-height: 11%;
-    height: auto;
-    height:11%;
-}
 .reg{
 	margin-top: 15px; 
     background-color: #EEEEFF;
@@ -58,7 +50,7 @@ footer{
 .Titel{
 	float: right;
 	font-size : 10px;
-	background-color: #EEEEFF;
+	background-color: #AEB5CC;
 	width : 100%;
     height: 30em;
 }
@@ -74,40 +66,29 @@ footer{
 	font-size: 20px;
 }
 
-.MusikTabelle{
-	float: left;
-	margin-left: 15%;
-	margin-right:15%;
-	margin-top:1%;
-    margin-bottom:1%;
-	width: 20%;
-	height: 22%;
-}
-
-thead{
-    background-color: white;
-}
-
 .Titelth{
     border: 1px solid;
     empty-cells: hide;
-    width: 10em;
+    width: 20%;
+	text-align: center;
 }
 
 .Titeltd{
     border: 1px solid;
     empty-cells: hide;
-    width: 10em;
-    text-align: center;
+    width: 20%;
+	text-align: center;
+	background-color: #D8FF95;
 }
 
 .TitelList{
 	float: right;
-	float: top;
-    margin-right: 20px;
+	margin-right: 20px;
+	width: 80%;
 }
 
 .TitelMenü{
+	background-color: #167F41;
 	float: left;
 	margin-left: 2%;
 	margin-top: 2%;
@@ -150,12 +131,6 @@ thead{
 	height: 100px;
 }
 
-.hinzufügen{
-    margin-top: 10px;
-    padding:10px;
-    float: right;
-}
-
 .search_delete{
     float: left;
     padding: 10px;
@@ -163,6 +138,53 @@ thead{
     border-style: outset;
     border-color: darkslategrey;
     background-color: #EEEEFF;
-    height: 6em;
-    margin-top: 15px;
+    height: 9em;
+}
+
+.Musik{
+	background-color: #AEB5CC;
+	max-width : 100%;
+	height: 84.5%;
+    padding: 10px;
+}
+
+.MusikTabelleLinks{
+	float: left;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 1%;
+	height: 200;
+	border: solid;
+	border-width: medium;
+	border-color: #444444;
+	border-radius: 5px;
+}
+
+.MusikTabelleRechts{
+	float: right;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 1%;
+	height: 200;
+	border: solid;
+	border-width: medium;
+	border-color: #444444;
+	border-radius: 5px;
+}
+
+.MusikImages{
+	width: 200;
+	height: 200;
+}
+
+.wrapper2{
+	padding: 10px;
+	background-color:#EEEEFF;
+    height:11%;
+}
+
+.hinzufügen{
+    margin-top: 13%;
+    padding: 10px;
+    float: right;
 }
