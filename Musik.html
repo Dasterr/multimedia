@@ -3,82 +3,52 @@
 <header>
 	<meta name = "author" content = "MultimediaEngeneering">
 	<meta charset = "UTF-8">
-	<link rel="stylesheet" type = "text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type = "text/css" href="css/musik.css">
 	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 	<title> Musik </title>
 </header>
+
 <body>
     <div class ="wrapper2">        
             <h1>Musikbibliothek</h1>
-            <ul class = "Index"><a href = "index.html" > Logout </a>  </ul>			
-			<div class = hinzufügen >
-				<form>
-					Lied hinzufügen:
-					<input type = "hidden" name = "Datei" />
-					<input name "Lied []" type = "file" multiple />
-					<input type="submit" name="Submit" value="Upload" />
-				</form>
-			</div>		
+            <ul class=Index> <a href = "index.html"> Logout </a>  </ul>
     </div>
-<div class = menu>
+
+<div class=Musik>
+	
 	<a href="Titel.html">
-		<table class="MusikTabelle">
-			<tr>
-				<th>
-					<img src="img/index.jpg " width="150" height="150" alt="Titel">
-				</th>
-			</tr>
-				<th>
-					Titel
-				</th>
-		</table>
+		<div class=MusikTabelleLinks>
+			<img src="img/index.jpg" title=Titel class=MusikImages alt="Titel"/>
+		</div>	
 	</a>
-
+	
 	<a href="Album.html">
-		<table class="MusikTabelle">
-			<tr>
-				<th>
-					<img src="img/Album.jpg " width="150" height="150" alt="Album ">
-                    <!--http://upload.wikimedia.org/wikipedia/commons/e/ec/Record-Album-02.jpg-->
-				</th>
-
-			</tr>
-
-				<th>
-					Album
-				</th>
-		</table>
+		<div class=MusikTabelleRechts>
+			<img src="img/Album.jpg" title=Album class=MusikImages alt="Album"/>
+		</div>	
 	</a>
-
+	
 	<a href="Interpret.html">
-		<table class="MusikTabelle">
-			<tr>
-				<th>
-                    <img src="img/Interpret.gif " width="150" height="150" alt="Album ">
-                    <!--http://www.picgifs.com/music-graphics/music-graphics/jazz-musician/music-graphics-jazz-musician-165168.gif-->
-				</th>
-			</tr>
-
-				<th>
-					Interpret
-				</th>
-		</table>
+		<div class=MusikTabelleLinks>
+			<img src="img/Interpret.gif" title=Interpret class=MusikImages alt="Interpret"/>
+		</div>	
 	</a>
-
+	
 	<a href="Genre.html">
-		<table class="MusikTabelle">
-			<tr>
-				<th>
-                    <img src="img/Genre.jpg " width="150" height="150" alt="Album ">
-                    <!--http://asiaexc12febriyanti.files.wordpress.com/2012/05/music-genres-21-05-111.jpg-->
-				</th>
-			</tr>
-
-				<th>
-					Genre
-				</th>
-		</table>
+		<div class=MusikTabelleRechts>
+			<img src="img/Genre.jpg" title=Genre class=MusikImages alt="Genre"/>
+		</div>	
 	</a>
-<div>
+
+	<div class=hinzufügen>
+		<form>
+			<b>Lied hinzufügen:</b><br>
+			<input type = "hidden" name = "Datei" /><br>
+			<input name "Lied []" type = "file" multiple /><br>
+			<input type="submit" name="Submit" value="Upload" />
+		</form>
+	</div>
+	
+</div>
 </body>
 </html>
