@@ -3,56 +3,41 @@
 <header>
 	<meta name = "author" content = "MultimediaEngeneering">
 	<meta charset = "UTF-8">
-	<link rel="stylesheet" type = "text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type = "text/css" href="css/Titel.css">
 	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 	<title> Titel </title>
 </header>
 
 <body>
 	<div class=Titel>
-		<div class=TitelMenü>
-			<a href="Musik.html">
-				<table height=5%>
-					<tr>
-						<th width=5%>
-							Übersicht
-						</th>
-					</tr>
-				</table>
-			</a>
-			<br>
-			<a href="Interpret.html">
-				<table height=5%>
-					<tr>
-						<th width=5%>
-							Interpret
-						</th>
-					</tr>
-				</table>
-			</a>
-			<br>
-			<a href="Album.html">
-				<table height=5%>
-					<tr>
-						<th width=5%>
-							Album
-						</th>
-					</tr>
-				</table>
-			</a>
-			<br>
-			<a href="Genre.html">
-				<table height=5%>
-					<tr>
-						<th width=5%>
-							Genre
-						</th>
-					</tr>
-				</table>
-			</a>
-		</div>
-		<br>
-		<table class = TitelList rules="groups">
+
+	<div class=Menü>
+		<a href="Musik.html" class=TitelMenü>
+			<p>Übersicht</p>
+		</a>
+	
+		<a href="Interpret.html" class=TitelMenü>
+			<p>Interpret</p>
+		</a>
+				
+		<a href="Album.html" class=TitelMenü>
+			<p>Album</p>
+		</a>
+		
+		
+		<a href="Genre.html" class=TitelMenü>
+			<p>Genre</p>
+		</a>
+	
+		<form class = "search_delete">
+			<input type = "text" name = "" /> <br>
+			<input type = "submit" value ="Search"><br>
+			<input type = "text" name = "" /> <br>
+			<input type = "submit" value ="Delete">
+		</form>
+	</div>
+	
+		<table class=TitelList rules="groups">
 			<thead>
 				<tr>
 					<th class="Titelth"> Titel</th>
@@ -80,14 +65,7 @@
 			</tfoot>
 		</table>
 
-		<div class = "search_delete">
-			<form>
-				<input type = "text" name = "" /> <br/>
-				<input type = "submit" value ="Search"><br/>
-				<input type = "text" name = "" /> <br/>
-				<input type = "submit" value ="Delete">
-			</form>
-		</div>
 	</div>
+</div>
 </body>
 </html>
