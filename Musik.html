@@ -9,46 +9,47 @@
 </header>
 
 <body>
-    <div class ="wrapper2">        
-            <h1>Musikbibliothek</h1>
-            <ul class=Index> <a href = "index.html"> Logout </a>  </ul>
-    </div>
 
-<div class=Musik>
-	
-	<a href="Titel.html">
-		<div class=MusikTabelleLinks>
-			<img src="img/index.jpg" title=Titel class=MusikImages alt="Titel"/>
-		</div>	
-	</a>
-	
-	<a href="Album.html">
-		<div class=MusikTabelleRechts>
-			<img src="img/Album.jpg" title=Album class=MusikImages alt="Album"/>
-		</div>	
-	</a>
-	
-	<a href="Interpret.html">
-		<div class=MusikTabelleLinks>
-			<img src="img/Interpret.gif" title=Interpret class=MusikImages alt="Interpret"/>
-		</div>	
-	</a>
-	
-	<a href="Genre.html">
-		<div class=MusikTabelleRechts>
-			<img src="img/Genre.jpg" title=Genre class=MusikImages alt="Genre"/>
-		</div>	
-	</a>
-
-	<div class=hinzufügen>
-		<form>
-			<b>Lied hinzufügen:</b><br>
-			<input type = "hidden" name = "Datei" /><br>
-			<input name "Lied []" type = "file" multiple /><br>
-			<input type="submit" name="Submit" value="Upload" />
-		</form>
+	<div class ="wrapper2">        
+		<h1>Musikbibliothek</h1>
+		<ul> <a href = "index.html" class=Index> Logout </a>  </ul>
 	</div>
-	
-</div>
+		
+	<div class=Musik>
+		
+		<a href="Titel.html">
+			<div class=MusikTabelleLinks>
+				<img src="img/index.jpg" title=Titel class=MusikImages alt="Titel"/>
+			</div>	
+		</a>
+		
+		<a href="Album.html">
+			<div class=MusikTabelleRechts>
+				<img src="img/Album.jpg" title=Album class=MusikImages alt="Album"/>
+			</div>	
+		</a>
+		
+		<a href="Interpret.html">
+			<div class=MusikTabelleLinks>
+				<img src="img/Interpret.gif" title=Interpret class=MusikImages alt="Interpret"/>
+			</div>	
+		</a>
+		
+		<a href="Genre.html">
+			<div class=MusikTabelleRechts>
+				<img src="img/Genre.jpg" title=Genre class=MusikImages alt="Genre"/>
+			</div>	
+		</a>
+
+		<div class=Upload>
+			<form>
+				<b>Lied hinzufügen:</b><br>
+				<input type = "hidden" name = "Datei" /><br>
+				<input name "Lied []" type = "file" multiple /><br>
+				<input type="submit" name="Submit" value="Upload" />
+			</form>
+		</div>
+		
+	</div>
 </body>
 </html>
