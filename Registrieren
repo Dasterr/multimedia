@@ -3,25 +3,25 @@
 <header>
     <meta name = "author" content = "MultimediaEngeneering">
     <meta charset = "UTF-8">
+    <link rel="stylesheet" type = "text/css" href="css/musik.css">
     <link rel="stylesheet" type = "text/css" href="css/stylesheet.css">
     <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
     <title> Registrieren </title>
 </header>
 <body>
-<div class = "wrapper2">
+<div class = "menu">
+    <div class = wrapper2>
 	<h1>Registrieren</h1>
+    </div>
 </div>
-<div class = "reg">
+<div class = "Login">
     <form name ="Register_Form">
-        <label>Username: <br/></label>
-        <input type = "text" name ="username"><br/>
-        <label>Password: <br/></label>
-        <input type = "password" name ="Password"><br/>
-        <label>Confirm Password: <br/></label>
-        <input type = "password" name ="ConfirmPassword"><br/>
-        <label>Email: <br/></label>
-        <input type = "email" name ="Email"><br/>
-        <input type = "submit" value =  "Register">
+        <input class = "Box" placeholder = "Username" type = "text" name ="username"><br/>
+        <input class = "Box" placeholder = "Passwort" type = "password" name ="Password"><br/>
+        <input class = "Box" placeholder = "Confirm Passwort" type = "password" name ="ConfirmPassword"><br/>
+        <input class = "Box" placeholder = "Email" type = "email" name ="Email"><br/>
+        <br/>
+        <input class = "Box" type = "submit" value =  "Register">
         <p>Bereits registriert? <a href = "index.html">Login</a></p>
 
     </form>
