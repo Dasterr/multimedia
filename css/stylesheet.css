@@ -3,10 +3,10 @@ body {
 }
 
 h1 {
-	color : black;
-	padding : 10px;
-	font-size: 30px;
-	float: left;
+    color : #6275A1;
+    padding : 10px;
+    font-size: 30px;
+    float: left;
 }
 
 table{
@@ -47,10 +47,34 @@ footer{
     padding: 20;
 }
 
-.Login{
+.Links{
 	float: right;
 	padding: 20px;
 }
+
+.Login{
+    height: 40px;
+    width: 450px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -20px;
+    margin-left: -225px;
+}
+
+.Box{
+    border: 1px solid #DDD;
+    background: white;
+    box-shadow: 0 0 1px #DDD inset;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    height:40px;
+    width: 450px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
 
 .Index{
 	float: right;
@@ -93,4 +117,22 @@ footer{
 .AlbumImage{
 	width: 100px;
 	height: 100px;
+}
+
+.Map{
+    height: 640px;
+    width: 480px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -320px;
+    margin-left: -240px;
+}
+
+.Titel{
+    color: #0D1D43;
+    font-size: 200%;
+    font-family: fantasy;
+    text-align: center;
+    font-weight: 900;
 }
