@@ -1,0 +1,94 @@
+body {
+	font-family : 'Dosis';
+}
+
+h1 {
+	color : #6275A1;
+	font-size: 30px;
+	text-align: center;
+}
+
+table{
+	border: 1px solid;
+}
+
+.AlbumMenü{
+	float: top;
+	margin-left:2%;
+	background-color: #EEEEFF;
+}
+
+.AlbumAlphabet	{
+	font-size: 50px;
+	text-align: center;
+	float: left;
+	margin-left: 10%;
+	background-color: #E3E3E3;
+}
+
+.AlbumÜberListe{
+	margin-left: 5%;
+}
+
+.AlbumListe{
+	float: left;
+	margin-left: 5%;
+	background-color: #E3E3E3;
+}
+
+.AlbumImage{
+	width: 100px;
+	height: 100px;
+}
+
+.Titel{
+	font-size : 10px;
+	background-color: #AEB5CC;
+    background-image: url("/img/bg2.jpg");
+	max-width : 100%;
+    height: 100%;
+	font-weight: 900;
+	padding: 10px;
+}
+
+.TitelMenü{
+	background-color: #0D1D43;
+	border: solid;
+	border-color: #444444;
+	border-width: medium;
+	border-radius: 5px;
+	margin-top: 40%;
+	float: left;
+	width: 100;
+	height: 50;
+	text-align: center;
+	font-size: 16;
+	text-decoration: none;
+	color: #6275A1;
+}
+
+.wrapper2{
+	padding: 10px;
+	background-color:#0D1D43;
+    height:11%;
+}
+
+.Menü{
+	float: left;
+	width: 5%;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+.search_delete{
+    float: left;
+	margin-top: 30%;
+    padding: 10px;
+    border-width: medium;
+    border-style: outset;
+    border-color: darkslategrey;
+    background-color: #0D1D43;
+    height: 9em;
+    margin-left: 0%;
+    border-radius: 10px;
+}
