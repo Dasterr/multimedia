@@ -1,5 +1,15 @@
+body {
+	font-family : 'Dosis';
+}
+
 table{
 	border: 1px solid;
+}
+
+h1 {
+	color : #6275A1;
+	font-size: 30px;
+	text-align: center;
 }
 
 thead{
@@ -10,14 +20,20 @@ footer{
     bottom: 0px;
 }
 
+.wrapper2{
+	padding: 10px;
+	background-color:#0D1D43;
+    height:11%;
+}
+
 .Titel{
-	float: right;
 	font-size : 10px;
 	background-color: #AEB5CC;
     background-image: url("/img/bg2.jpg");
-	width : 100%;
+	max-width : 100%;
     height: 100%;
-    font-weight: 900;
+	font-weight: 900;
+	padding: 10px;
 }
 
 .TitelMenü{
@@ -26,10 +42,8 @@ footer{
 	border-color: #444444;
 	border-width: medium;
 	border-radius: 5px;
-	float: left;
-	margin-left: 50%;
-	margin-right: 1%;
 	margin-top: 40%;
+	float: left;
 	width: 100;
 	height: 50;
 	text-align: center;
@@ -39,7 +53,6 @@ footer{
 }
 
 .Titelth{
-    border: 1px solid;
     empty-cells: hide;
     width: 20%;
 	text-align: center;
@@ -47,35 +60,37 @@ footer{
 }
 
 .Titeltd{
-    border: 1px solid;
     empty-cells: hide;
-    width: 20%;
 	text-align: center;
 	background-color: #F1CE87;
 }
 
 .TitelList{
+	text-align: center;
 	float: right;
 	margin-top: 20;
 	margin-right: 10px;
-	width: 85%;
+	max-width: 85%;
+	width: auto;
+	background-color: #F1CE87;
 }
 
 .search_delete{
     float: left;
 	margin-top: 30%;
     padding: 10px;
-    border-width: 1px;
+    border-width: medium;
     border-style: outset;
     border-color: darkslategrey;
     background-color: #0D1D43;
     height: 9em;
-    margin-left: 30%;
+    margin-left: 0%;
     border-radius: 10px;
 }
 
 .Menü{
 	float: left;
 	width: 5%;
+	margin-left: 2%;
 	margin-top: 1%;
 }
